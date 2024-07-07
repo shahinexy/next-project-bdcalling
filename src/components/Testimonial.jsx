@@ -38,7 +38,7 @@ const Testimonial = () => {
                                 <h3 className='text-4xl font-semibold'>When I launched my company it took me forever to choose a theme and I'm so glad I picked pipeline. It grew as my business grew.</h3>
                                 <p className='mt-10 text-xl'>— Ouive</p>
                             </div>
-                            <div className='ml-28'>
+                            <div className='ml-36'>
                                 <div className="text-center inline-block">
                                     <Image src={slidImg1} className='w-[450px] h-[650px] border border-black rounded-xl'></Image>
 
@@ -54,7 +54,7 @@ const Testimonial = () => {
                                 <h3 className='text-4xl font-semibold'>When I launched my company it took me forever to choose a theme and I'm so glad I picked pipeline. It grew as my business grew.</h3>
                                 <p className='mt-10 text-xl'>— Ouive</p>
                             </div>
-                            <div className='ml-28'>
+                            <div className='ml-36'>
                                 <div className="text-center inline-block">
                                     <Image src={slidImg2} className='w-[450px] h-[650px] border border-black rounded-xl'></Image>
 
@@ -70,7 +70,7 @@ const Testimonial = () => {
                                 <h3 className='text-4xl font-semibold'>When I launched my company it took me forever to choose a theme and I'm so glad I picked pipeline. It grew as my business grew.</h3>
                                 <p className='mt-10 text-xl'>— Ouive</p>
                             </div>
-                            <div className='ml-28'>
+                            <div className='ml-36'>
                                 <div className="text-center inline-block">
                                     <Image src={slidImg1} className='w-[450px] h-[650px] border border-black rounded-xl'></Image>
 

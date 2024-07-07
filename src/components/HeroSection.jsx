@@ -7,11 +7,11 @@ const HeroSection = () => {
     return (
         <div>
             <div>
-                <h1 className="text-8xl font-bold">Shopify themes— <br />
+                <h1 className="text-8xl font-semibold text-[#212326]">Shopify themes— <br />
                     built for commerce</h1>
                 <div className='flex justify-between gap-5'>
                     <p className='text-3xl mt-5'>Take your store from launch to scale with themes that make selling easy.</p>
-                    <button className='bg-black px-12 py-5 rounded-full text-white text-2xl'>Explore themes</button>
+                    <button className='bg-black px-8 py-5 rounded-full text-white text-xl font-semibold hover:bg-black/80'>Explore themes</button>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@ const HeroSection = () => {
                             <button className='border rounded-full px-4 py-4 bg-[#DCD5D0]'></button>
                             <button className='border rounded-full px-4 py-4 bg-[#22457A]'></button>
                         </div>
-                        <div className="flex gap-10 flex-wrap mt-8">
+                        <div className="flex gap-x-6 gap-y-2 flex-wrap mt-8">
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Sticky header</p>
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Mega menu</p>
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Color swatches</p>
@@ -60,7 +60,7 @@ const HeroSection = () => {
                             <button className='border rounded-full px-4 py-4 bg-[#DCD5D0]'></button>
                             <button className='border rounded-full px-4 py-4 bg-[#22457A]'></button>
                         </div>
-                        <div className="flex gap-10 flex-wrap mt-8">
+                        <div className="flex gap-x-6 gap-y-2 flex-wrap mt-8">
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Sticky header</p>
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Mega menu</p>
                             <p className='rounded-full bg-gray-200 px-5 py-2'>Color swatches</p>

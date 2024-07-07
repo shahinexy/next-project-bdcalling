@@ -9,7 +9,7 @@ const HomeMarquee = () => {
         <div className='my-20'>
             <h1 className='max-w-[1800px] mx-auto px-4 mb-10 text-3xl '>Powering our community of entrepreneurs</h1>
             <Marquee pauseOnHover={true}>
-                <div className='flex gap-10 mb-10'>
+                <div className='flex gap-12 mb-10'>
                     <div className='relative group overflow-hidden'>
                     <Image className='w-full h-[550px] border border-black rounded-xl' src={slidImg1}></Image>
                     <div className='absolute hover:bg-white/80 inset-0 w-full h-full translate-y-[100%] group-hover:translate-y-0 flex flex-col justify-center items-center'>
@@ -54,7 +54,7 @@ const HomeMarquee = () => {
             </Marquee>
 
             <Marquee pauseOnHover={true} direction={'right'}>
-                <div className='flex gap-10 '>
+                <div className='flex gap-12 '>
                     <div className='relative group overflow-hidden'>
                     <Image className='w-full h-[550px] border border-black rounded-xl' src={slidImg1}></Image>
                     <div className='absolute hover:bg-white/80 inset-0 w-full h-full translate-y-[100%] group-hover:translate-y-0 flex flex-col justify-center items-center'>
